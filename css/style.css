@@ -1,0 +1,122 @@
+:root{
+    --top-color: #26292e;
+    --section1-color: #e9748e ;
+    --section2-color: #f4f4f6;
+    --section2-border: #f6e7ec;
+    --section3-color: #fff;
+    --bot-color: #26292e;
+    --top-text: #949597;
+    --p-text: #d8d8da;
+}
+/* icons */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-bubbles {
+    width: 1.125em;
+}
+
+.icon-facebook,.icon-twitter,.icon-rss{
+    background-color: white;
+    font-size: 45px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.icon-cloud-download,.icon-bubbles,.icon-star-full{
+    font-size: 40px;
+}
+
+.icon-search{
+    display: inline-block;
+    margin: 0;
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 7px solid lightgray;
+}
+
+/* end icons */
+/* header */
+
+#header{
+   background-color: var(--top-color);
+}
+
+.logo{
+    font-family: 'Butterfly Kids', cursive;
+    color: var(--top-text);
+    font-size: 65px;
+}
+
+.social-list{
+    list-style-type: none;
+}
+
+.social-item{
+    display: inline;
+}
+
+/* end header */
+/* main */
+/* section1 */
+
+.section1{
+    background-color: var(--section1-color);
+    color: var(--section3-color);
+}
+
+.button{
+    border-top: 2px inset white;
+}
+
+/* end section1 */
+/* section2 */
+
+.section2{
+    background-color: var(--section2-color);
+    border-bottom: 10px solid var(--section2-border);
+}
+
+.block{
+    margin-bottom: 20px;
+}
+
+/* end section2 */
+/* section3 */
+
+.products{
+    margin: 0;
+}
+
+.name{
+    font-weight: 800;
+}
+
+.client-list{
+    list-style-type: none;
+}
+
+.client-comment{
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--bot-color);
+}
+
+.colophon{
+    color: var(--top-text);
+    margin: 0 auto;
+}

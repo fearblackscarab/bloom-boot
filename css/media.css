@@ -1,0 +1,7 @@
+/* section3 */
+
+@media(min-width:500px) and (max-width:575px){
+.icon-search{
+margin-right: 38px;
+}
+}
