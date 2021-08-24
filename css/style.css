@@ -31,13 +31,14 @@
 
 .icon-cloud-download,.icon-bubbles,.icon-star-full{
     font-size: 40px;
+    margin-top: 5px;
 }
 
 .icon-search{
     display: inline-block;
-    margin: 0;
-    width: 250px;
-    height: 100px;
+    margin: 0 auto;
+    width: 300px;
+    height: 120px;
     background-color: black;
     color: white;
     padding: 20px;
@@ -94,12 +95,22 @@
 /* end section2 */
 /* section3 */
 
+.checkout{
+    margin: 0 auto;
+}
+
 .products{
     margin: 0;
+    margin-top: 40px;
 }
 
 .name{
     font-weight: 800;
+}
+
+.client-head{
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 40px;
 }
 
 .client-list{
@@ -119,4 +130,5 @@
 .colophon{
     color: var(--top-text);
     margin: 0 auto;
+    margin-top: 20px;
 }
